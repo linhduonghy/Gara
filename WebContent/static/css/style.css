@@ -1,0 +1,279 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	color:#292929;
+	line-height:2em;
+	font-weight:400;
+	background:#ffffff;
+}
+ul,li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.table td,.table th {
+	text-align: center;
+}
+.c-pointer {
+	cursor: pointer;
+}
+.focus {
+	background: blue;
+}
+/* Header */
+.main-header{
+	position:relative;
+	width:100%;
+	left:0px;
+	top:0px;
+	z-index:999;
+	background:#ffffff;
+	transition:all 300ms ease;
+}
+.main-header .header-top{
+	position:relative;
+	padding:20px 50px;
+	background:#ffffff;
+	transition:all 300ms ease;
+}
+
+.main-header .logo{
+	position:relative;
+	padding:0px 0px;
+	transition:all 300ms ease;
+}
+.main-header .logo img{
+	position:relative;
+	max-width:100%;	
+}
+.header-top-infos {
+	font-size: 14px;
+	line-height: 20px;
+	color: #36404B;
+    margin-top: 20px;
+    /* margin-left: 300px;   */  
+}
+.header-top-infos > ul > li {
+	float: left;
+    width: 50%;
+    border-right: 1px solid #D3D3D3;
+    padding: 0 18px;
+}
+.header-top-infos > ul > li:last-child {
+	border: none;
+}
+.header-top-infos p {
+	margin-bottom: 5px;
+}
+.header-top-infos li div img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.header-top-infos li div p {
+	float: left;
+	
+}
+
+/* header-menu */
+.main-menu {
+	font-size: 18px;
+	background: #36404b;;
+}
+.main-header .navbar {
+	padding: 0px 30px;
+}
+.main-header .navbar-collapse ul li {
+	line-height: 40px;
+}
+
+.main-header .navbar-collapse ul li a{
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	transition: all 0.4s ease;
+	padding: 8px 20px !important;
+	
+}
+.main-header .navbar-collapse ul li a:hover {
+	background: #fb4848;
+}
+/* end header-menu */
+/* End Header */
+
+
+/* NhanXe */
+.content {
+	padding-top: 60px;
+	background-color: #f0f5f5;
+}
+
+.customer-search {
+	position: relative;
+	max-width: 800px;
+	margin-bottom: 20px;
+}
+#customer_input {
+	display: inline;
+	outline: none; 
+	width: 445px; 
+	margin-right: 15px;
+	border-radius: 6px
+}
+#customer_search_list {
+	position: absolute;
+	width: 475px;	
+	height: 350px;
+	top: 100%;
+	z-index: 9999;
+	display: block;
+	overflow: auto;
+	background: #fff;
+}
+#table_customer td {
+	text-align: left;
+}
+.cus-info {
+	margin-left: 5px;
+}
+.customer-item {
+	padding: 5px 15px;
+	border: 1px solid #f2f2f2;
+	border-top: 0px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.customer-item:hover {
+	background: #e0e0d1;
+}
+small {	
+	display: block;
+	line-height: 1.428571429;
+	color: #999;
+}
+
+/* part service */
+.service-part {
+	margin-top: 50px;
+}
+.service-part-search {
+	position: relative;
+	max-width: 445px;
+}
+#sp_input {
+	display: inline;
+	outline: none; 
+	width: 100%; 
+	margin-right: 15px;
+	border-radius: 6px
+}
+#sp_search_list {
+	position: absolute;
+	width: 100%;	
+	height: 300px;
+	top: 100%;
+	z-index: 9999;
+	display: block;
+	overflow: auto;
+	background: #fff;
+}
+#table_sp td, #table_sp th {
+	text-align: left;
+}
+.sp-search-item {
+	font-weight: bold;
+	margin-left: 5px;
+}
+/* End NhanXe */
+
+/*
+	Style Model Bill Detail
+*/
+.invoice-box {
+	max-width: 720px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .15);
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+	color: #555;
+}
+
+#servicePart #btnAdd{
+	display: none;
+}
+
+/*
+	Style Report.html
+*/
+/* Styling Select box */
+.dropdown {
+    width: 300px;
+    display: inline-block;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    border: 1px solid gray;
+    box-shadow: 0 0 2px rgb(204, 204, 204);
+    transition: all .5s ease;
+    position: relative;
+    font-size: 14px;
+    color: #474747;
+    text-align: left
+}
+
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover {
+    box-shadow: 0 0 4px rgb(204, 204, 204)
+}
+
+.dropdown:active {
+    background-color: #f8f8f8
+}
+
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+    border-radius: 2px 2px 0 0;
+    background-color: #f8f8f8
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    display: none;
+    max-height: 200px;
+    z-index: 9
+}
+
+.dropdown .dropdown-menu li {
+    padding: 10px;
+    transition: all .2s ease-in-out;
+    cursor: pointer
+}
+
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none
+}
+
+.dropdown .dropdown-menu li:hover {
+    background-color: #f2f2f2
+}
+
+.dropdown .dropdown-menu li:active {
+    background-color: #e2e2e2
+}
+
+/* End Style Report.html */

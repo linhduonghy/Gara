@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//WebContent/admin/car_reception.jsp=UTF-8
+encoding//src/dao/CarReceptionDAO.java=UTF-8
+encoding//src/dao/CustomerDAO.java=UTF-8
+encoding//src/dao/ProviderDAO.java=UTF-8
+encoding//src/dao/RoleDAO.java=UTF-8
+encoding//src/dao/StaffDAO.java=UTF-8
+encoding//src/model/CarReceptionService.java=UTF-8
+encoding//src/servlet/CarReceptionBillServlet.java=UTF-8
+encoding//src/servlet/CarReceptionServlet.java=UTF-8
+encoding//src/servlet/CustomerReportServlet.java=UTF-8
